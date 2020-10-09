@@ -1,11 +1,9 @@
-for i in {0..9}
+for size in 1 5 10 50 100 500 1024 2048 5120 10240 20480 51200 102400
 do
-	echo "Package $i started publishing @ $(date +%s%N)" >> pub_times_2mb.log
-	mosquitto_pub -h 192.168.2.10 -f testfile_2mb -t "test" -q 1
-done
-
-for i in {0..9}
-do
-	echo "Package $i started publishing @ $(date +%s%N)" >> pub_times_20mb.log
-	mosquitto_pub -h 192.168.2.10 -f testfile_20mb -t "test" -q 1
+	for i in {0..4}
+	do
+		echo $(date +%s%N) >> pub_$size.log
+		mosquitto_pub -h 192.168.2.10 -t "test" -q 1 -f testfile_$size
+		sleep 5
+	done
 done

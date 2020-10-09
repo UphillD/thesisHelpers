@@ -1,49 +1,51 @@
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%           Message Size           %
-%            Evaluation            %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Average total bandwidth for message size = 100 B:	572 msg/sec	| 55 KBps
-Average total bandwidth for message size = 1024 B:	542 msg/sec	| 542 KBps
-Average total bandwidth for message size = 2048 B:	396 msg/sec	| 792 KBps
-Average total bandwidth for message size = 5120 B:	221 msg/sec	| 1105 KBps
-Average total bandwidth for message size = 10240 B:	130 msg/sec	| 1300 KBps
-Average total bandwidth for message size = 102400 B:	10 msg/sec	| 1000 KBps
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%           Message Size           %
-%            Evaluation            %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %     Quality of Service (QoS)     %
 %            Evaluation            %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Average total bandwidth for QoS = 0:	4957 msg/sec	 | 4957 KBps
-Average total bandwidth for QoS = 1:	714 msg/sec	 | 714 KBps
-Average total bandwidth for QoS = 2:	407 msg/sec	 | 407 KBps
+Average total bandwidth for QoS = 0:	4957 KBps
+Average total bandwidth for QoS = 1:	714 KBps
+Average total bandwidth for QoS = 2:	407 KBps
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %      Scalability (#clients)      %
 %            Evaluation            %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-Average total bandwidth for # of clients = 1:	128 msg/sec	 | 128 KBps
-Average total bandwidth for # of clients = 2:	199 msg/sec	 | 199 KBps
-Average total bandwidth for # of clients = 5:	486 msg/sec	 | 486 KBps
-Average total bandwidth for # of clients = 10:	670 msg/sec	 | 670 KBps
-Average total bandwidth for # of clients = 20:	891 msg/sec	 | 891 KBps
-Average total bandwidth for # of clients = 50:	1069 msg/sec	 | 1069 KBps
-Average total bandwidth for # of clients = 100:	995 msg/sec	 | 995 KBps
-Average total bandwidth for # of clients = 200:	998 msg/sec	 | 998 KBps
+Average total bandwidth for # of clients = 1:	128 KBps
+Average total bandwidth for # of clients = 2:	199 KBps
+Average total bandwidth for # of clients = 5:	486 KBps
+Average total bandwidth for # of clients = 10:	670 KBps
+Average total bandwidth for # of clients = 20:	891 KBps
+Average total bandwidth for # of clients = 50:	1069 KBps
+Average total bandwidth for # of clients = 100:	995 KBps
+Average total bandwidth for # of clients = 200:	998 KBps
+Average total bandwidth for # of clients = 500:	672 KBps
+
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %           Message Size           %
 %            Evaluation            %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Average total bandwidth for message size (B) = 100:		572 msg/sec	| 55 KBps
+Average total bandwidth for message size (B) = 1024:	542 msg/sec	| 542 KBps
+Average total bandwidth for message size (B) = 2048:	396 msg/sec	| 792 KBps
+Average total bandwidth for message size (B) = 5120:	221 msg/sec	| 1105 KBps
+Average total bandwidth for message size (B) = 10240:	130 msg/sec	| 1308 KBps
+Average total bandwidth for message size (B) = 102400:  10 msg/sec	| 1047 KBps
+Average total bandwidth for message size (B) = 1024000: 1 msg/sec	| 1083 KBps
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%     Quality of Service (QoS)     %
+%        Message Size (File)       %
 %            Evaluation            %
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-%      Scalability (#clients)      %
-%            Evaluation            %
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+Average total bandwidth for filesize (KB) = 1:		7 KBps
+Average total bandwidth for filesize (KB) = 5:		50 KBps
+Average total bandwidth for filesize (KB) = 10:		52 KBps
+Average total bandwidth for filesize (KB) = 50:		197 KBps
+Average total bandwidth for filesize (KB) = 100:	326 KBps
+Average total bandwidth for filesize (KB) = 500:	707 KBps
+Average total bandwidth for filesize (KB) = 1024:	1059 KBps
+Average total bandwidth for filesize (KB) = 2048:	1476 KBps
+Average total bandwidth for filesize (KB) = 5120:	1675 KBps
+Average total bandwidth for filesize (KB) = 10240:	1728 KBps
+Average total bandwidth for filesize (KB) = 20480:	1529 KBps
+Average total bandwidth for filesize (KB) = 51200:	956 KBps
+Average total bandwidth for filesize (KB) = 102400:	707 KBps

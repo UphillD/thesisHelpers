@@ -9,7 +9,7 @@ echo -e "%            Evaluation            %" >> $log
 echo -e "%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%" >> $log
 
 # Loop through the different filesizes
-for size in 1 5 10 50 100 500 1024 2048 5120 10240 20480 51200 #102400 204800
+for size in 1 5 10 50 100 500 1024 2048 5120 10240 20480 51200 102400
 do
 
 	# Open publishing times into file descriptor 5
